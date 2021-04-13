@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d4d4d4;
+    font-family:Helvetica,Arial, sans-serif;
+}
+
+.app-title{
+    text-align: center;
+    margin-top:3%;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.app-title::first-letter{
+    color: rgb(255, 78, 107);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+form{
+    margin:3% 35%;
+    padding:0.5% 1.5%;
+    border: 1px solid #ccc;
+    width:30%;
+    height:auto;
+    background: #fff;
+    box-shadow: 2px 2px 10px #ccc;
+    border-radius: 7px;
+}
+.login-title{
+    text-align: center;
+    font-size: 25px;
+}
+.form-group{
+    padding:2%;
+}
+.form-group>label{
+    width:100%;
+    display: block;
+    font-size: 19px;
+}
+.form-group>input{
+    width:100%;
+    padding: 2%;
+    font-size: 17px;
+    border: 1px solid rgb(231, 112, 132);
+    outline: none;
+}
+.form-group>input:focus{
+    border: 1px solid rgb(207, 91, 111)
+}
+input[type="submit"]{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    height: 42px;
+    background:rgb(231, 112, 132);
+    border-radius:5px;
+    outline: none;
+    cursor: pointer;
+    border:none;
+    font-size:18px;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin-top:2%;
+}
+input[type='submit']:hover{
+    background:rgb(207, 98, 116);
+}
+
+form>p{
+    margin:3% 0;
+  text-align: center;
+  font-size:18px;
+}
+form>p>a{
+    color:rgb(231, 112, 132);
+}
+.error-message-div {
+    background-color: rgb(219, 67, 67);
+    margin-top: 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    padding: 0.5%;
+    margin-bottom: -5%;
+}
+
+.error-message-div>p {
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+main{
+    min-height:calc(93vh - 50px);
+}
