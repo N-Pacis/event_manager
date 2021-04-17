@@ -3,17 +3,17 @@ session_start();
 require_once '../utils/connection.php';
 if (!$connect) {
     $_SESSION["error-message"] = "Connection to the database failed";
-    header("Location: ../login-page/loginPage.php");
+    header("Location: ../login-page/login.php");
 } else {
     $user = $_SESSION["username"];
     if (!$user) {
         $_SESSION["error-message"] = "You need to login first!";
-        header("Location: ../login-page/loginPage.php");
+        header("Location: ../login-page/login.php");
     } else {
         $selectUserQuery = mysqli_query($connect, "SELECT * FROM users where username='$user'");
         if (mysqli_num_rows($selectUserQuery) == 0) {
             $_SESSION["error-message"] = "No user found with the supplied username and password";
-            header("Location: ../login-page/loginPage.php");
+            header("Location: ../login-page/login.php");
         } else {
             $row = mysqli_fetch_assoc($selectUserQuery);
             $user_id = $row["user_id"];

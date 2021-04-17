@@ -4,7 +4,7 @@
 
     if(!$connect){
         $_SESSION["error-message"] = "Connection to the database failed";
-        header("Location: loginPage.php");
+        header("Location: login.php");
     }
     else{
         $username = mysqli_real_escape_string($connect,$_POST['username']);
@@ -12,14 +12,14 @@
     
         if($username === "" || $password === "" || !$username || !$password) {
             $_SESSION["error-message"] = "All fields are required";
-            header("Location: loginPage.php");
+            header("Location: login.php");
         }
         else{
            $hashed_password = hash('SHA512',$password);
            $checkUserQuery = mysqli_query($connect,"SELECT * FROM users WHERE username like '$username' AND password='$hashed_password'");
            if(mysqli_num_rows($checkUserQuery) == 0){
                 $_SESSION["error-message"] = "Incorrect username or password";
-                header("Location: loginPage.php");  
+                header("Location: login.php");  
            }
            else{
                 $_SESSION["username"] = $username;
