@@ -20,7 +20,7 @@ session_start();
         <?php endif; ?>
         <h1 class="app-title">Event Manager</h1>
         <form action="loginHandler.php" method="post">
-            <h1 class="login-title">Login Here</h1>
+            <h1 class="login-title">Login Here please</h1>
             <div class="form-group">
                 <label for="username">
                     Username:
