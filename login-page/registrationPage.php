@@ -47,7 +47,7 @@ session_start();
                 <input type="password" name="repeat-password" id="repeat-password" placeholder="Repeat your entered password...">
             </div>
             <input type="submit" value="Register">
-            <p>Already have an account?<a href="loginPage.php">Login Here</a></p>
+            <p>Already have an account?<a href="login.php">Login Here</a></p>
         </form>
         <script>
             function clearSession() {
