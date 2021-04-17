@@ -1,3 +1,3 @@
 <?php 
- echo "Hello world";
+header("Location:../login-page/login.php")
 ?>
