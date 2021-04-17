@@ -25,11 +25,11 @@ session_start();
                 <label for="username">
                     Username:
                 </label>
-                <input type="text" name="username" id="username" placeholder="Enter your username...">
+                <input type="text" name="username" id="username" placeholder="Enter your username..." autocomplete=false>
             </div>
             <div class="form-group">
                 <label for="password">Password:</label>
-                <input type="password" name="password" id="password" placeholder="Enter your password...">
+                <input type="password" name="password" id="password" placeholder="Enter your password..." autocomplete=false>
             </div>
             <input type="submit" value="Login">
             <p>Don't have an account?<a href="registrationPage.php">Register Here</a></p>
