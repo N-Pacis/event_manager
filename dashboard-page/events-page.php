@@ -29,7 +29,7 @@ if (!$connect) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://use.fontawesome.com/4dc28ec4cb.js"></script>
     <link rel="stylesheet" href="dashboard-page.css?v=<?php echo time(); ?>">
 </head>
 
@@ -51,7 +51,7 @@ if (!$connect) {
             <p><?php echo $_SESSION['error-message']; ?></p>
         </div>
     <?php endif; ?>
-    <button class="new-event-btn" id="new-event-btn"><i class="fas fa-calendar-plus"></i>New Event</button>
+    <button class="new-event-btn" id="new-event-btn"><i class="fa fa-calendar-plus"></i>New Event</button>
     <?php
     $selectQuery = mysqli_query($connect, "SELECT * FROM events INNER JOIN users ON user_id=creator where creator=$user_id");
     if (mysqli_num_rows($selectQuery) == 0) {

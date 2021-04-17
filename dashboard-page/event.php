@@ -45,10 +45,10 @@ if (!$connect) {
 
 <body id="body" onload="clearSession()">
     <a href="events-page.php" class="go-back-link">
-        <i class="fas fa-angle-double-left"></i>Go back
+        <i class="fa fa-angle-double-left"></i>Go back
     </a>
     <div class="event-page-image">
-        <i class="fas fa-photo-video"></i>
+        <i class="fa fa-photo-video"></i>
         <p class="event-page-image-text">Event Image Here</p>
     </div>
     <div class="event-page-title">
@@ -59,7 +59,7 @@ if (!$connect) {
         <p class="event-page-duration"><span>Date:</span><?php echo $row["event_duration"] ?></p>
         <div class="event-members">
             <div class="search-member">
-                <i class="fas fa-search"></i>
+                <i class="fa fa-search"></i>
                 <input type="text" name="search-member" id="search-member" placeholder="Find A participant...">
             </div>
             <div class="members">

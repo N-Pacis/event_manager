@@ -9,7 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notifications</title>
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://use.fontawesome.com/4dc28ec4cb.js"></script>
     <link rel="stylesheet" href="dashboard-page.css?v=<?php echo time();?>">
 </head>
 
