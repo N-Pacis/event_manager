@@ -67,23 +67,14 @@ if (!$connect) {
                 <button id="invite-participant-btn">Invite a participant</button>
             </div>
         </div>
-        <div class="event-form" id="event-form">
-            <form action="add-newMemberHandler.php" method="post">
-                <h1 class="new-member-title">Add A New Member to 
-                </h1>
-                <div class="form-group">
-                    <label for="event-name">Event Name</label>
-                    <input type="text" name="event-name" id="event-name" required>
+        <div class="participant-form" id="participant-form">
+            <form action="add-participant-form.php" method="post">
+                <h1>Invite a participant to <span><?php echo $row["event_name"]?></span></h1>
+                <div class="search-user">
+                    <i class="fa fa-search"></i>
+                    <input type="text" name="search-user" id="search-user" placeholder="Search user by username....">
                 </div>
-                <div class="form-group">
-                    <label for="event-desc">Event Description</label>
-                    <input type="text" name="event-desc" id="event-desc" required>
-                </div>
-                <div class="form-group">
-                    <label for="event-duration">Event Duration</label>
-                    <input type="date" name="event-duration" id="event-duration" min="<?php echo date("Y-m-d"); ?>" required>
-                </div>
-                <input type="submit" value="Add A New Event">
+                <input type="submit" value="Invite to <?php echo $row["event_name"]?>">
             </form>
         </div>
     </div>
