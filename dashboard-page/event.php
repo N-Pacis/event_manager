@@ -84,6 +84,11 @@ if (!$connect) {
             $_SESSION['error-message'] = "";
             ?>
         }
+        document.getElementById('invite-participant-btn').addEventListener('click', function() {
+            document.getElementById("participant-form").style.display = "block";
+            document.getElementById("body").style.overflowY = "hidden";
+            document.querySelector(".error-message-div").style.display = "none";
+        });
     </script>
 </body>
 
