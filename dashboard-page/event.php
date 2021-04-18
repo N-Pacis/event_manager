@@ -69,12 +69,12 @@ if (!$connect) {
         </div>
         <div class="participant-form" id="participant-form">
             <form action="add-participant-form.php" method="post">
-                <h1>Invite a participant to <span><?php echo $row["event_name"]?></span></h1>
+                <h1 class="invite-participant">Invite a participant to <span><?php echo $row["event_name"]?></span></h1>
                 <div class="search-user">
                     <i class="fa fa-search"></i>
                     <input type="text" name="search-user" id="search-user" placeholder="Search user by username....">
                 </div>
-                <input type="submit" value="Invite to <?php echo $row["event_name"]?>">
+                <input type="submit" value="Invite to <?php echo $row["event_name"]?>" class="add-participant-submit">
             </form>
         </div>
     </div>
