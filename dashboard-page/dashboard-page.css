@@ -391,7 +391,7 @@
     
     .search-member>i {
         position: absolute;
-        top: 57vh;
+        top: 60vh;
         left: 23%;
         font-weight: bold;
         color: rgb(255, 78, 107)
@@ -439,11 +439,12 @@
         top: 0;
         position: absolute;
         display: none;
+        margin-left: -2%;
     }
     
     .participant-form>form {
         margin: 6% 35%;
-        padding: 0.5% 1.5%;
+        padding: 0.5% 2.5%;
         border: 1px solid #ccc;
         width: 30%;
         height: auto;
@@ -454,51 +455,52 @@
     
     .invite-participant {
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
+        font-weight: 500;
     }
     
     .search-user {
         width: 100%;
         padding: 1.5% 2%;
-        border-bottom: 1px solid rgb(255, 78, 107);
     }
     
     .search-user>input {
         width: 100%;
-        padding: 0.9% 4%;
+        padding: 1.2% 8%;
         border: 1px solid rgb(255, 78, 107);
         outline: none;
-        font-size: 15px;
+        font-size: 14px;
         border-radius: 5px;
     }
     
     .search-user>i {
         position: absolute;
-        top: 57vh;
-        left: 23%;
+        top: 24vh;
+        left: 38.5%;
         font-weight: bold;
         color: rgb(255, 78, 107)
     }
     
     .search-user>input::placeholder {
-        color: rgb(59, 59, 59);
+        color: rgb(82, 82, 82);
         font-weight: 500;
+        font-size: 13px;
     }
     
     .add-participant-submit {
-        width: 100%;
-        text-align: center;
-        color: #fff;
-        height: 42px;
-        background: rgb(231, 112, 132);
-        border-radius: 5px;
-        outline: none;
-        cursor: pointer;
-        border: none;
-        font-size: 18px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-top: 2%;
+        width: 100% !important;
+        text-align: center !important;
+        color: #fff !important;
+        height: 26px !important;
+        background: rgb(231, 112, 132) !important;
+        border-radius: 5px !important;
+        outline: none !important;
+        cursor: pointer !important;
+        border: none !important;
+        font-size: 16px !important;
+        font-weight: bold !important;
+        text-transform: uppercase !important;
+        margin-top: 2% !important;
     }
     
     .add-participant-submit:hover {

@@ -39,7 +39,7 @@ if (!$connect) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $row["event_name"] ?></title>
-    <script src="https://use.fontawesome.com/4dc28ec4cb.js"></script>
+    <script src="https://kit.fontawesome.com/1681f60826.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="dashboard-page.css?v=<?php echo time(); ?>">
 </head>
 
@@ -48,7 +48,7 @@ if (!$connect) {
         <i class="fa fa-angle-double-left"></i>Go back
     </a>
     <div class="event-page-image">
-        <i class="fa fa-photo-video"></i>
+        <i class="far fa-images"></i>
         <p class="event-page-image-text">Event Image Here</p>
     </div>
     <div class="event-page-title">

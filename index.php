@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php 
-header("Location:../login-page/login.php")
+header("Location:./login-page/login.php")
 ?>
     
 </body>
