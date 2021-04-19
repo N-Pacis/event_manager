@@ -92,6 +92,7 @@ if (!$connect) {
     ?>
     <div class="event-form" id="event-form">
         <form action="add-eventHandler.php" method="post">
+            <i class="fas fa-times" id="close-event-form"></i>
             <h1 class="new-event-title">Add A New Event </h1>
             <div class="form-group">
                 <label for="event-name">Event Name</label>
@@ -113,6 +114,9 @@ if (!$connect) {
             document.getElementById("event-form").style.display = "block";
             document.getElementById("body").style.overflowY = "hidden";
             document.querySelector(".error-message-div").style.display = "none";
+        });
+        document.querySelector('#close-event-form').addEventListener('click',function(){
+            document.getElementById("event-form").style.display="none";
         });
 
         function clearSession() {

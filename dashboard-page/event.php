@@ -69,6 +69,8 @@ if (!$connect) {
         </div>
         <div class="participant-form" id="participant-form">
             <form action="add-participant-form.php" method="post">
+                <i class="fas fa-times" id="close-participant-form"></i>
+                <p class="invite-icon"><i class="fas fa-users"></i></p>
                 <h1 class="invite-participant">Invite a participant to <span><?php echo $row["event_name"]?></span></h1>
                 <div class="search-user">
                     <i class="fa fa-search"></i>
@@ -89,6 +91,9 @@ if (!$connect) {
             document.getElementById("body").style.overflowY = "hidden";
             document.querySelector(".error-message-div").style.display = "none";
         });
+        document.querySelector('#close-participant-form').addEventListener('click',function(){
+            document.getElementById("participant-form").style.display="none";
+        })
     </script>
 </body>
 

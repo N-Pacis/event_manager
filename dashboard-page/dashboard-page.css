@@ -391,7 +391,7 @@
     
     .search-member>i {
         position: absolute;
-        top: 60vh;
+        top: 64vh;
         left: 23%;
         font-weight: bold;
         color: rgb(255, 78, 107)
@@ -444,7 +444,7 @@
     
     .participant-form>form {
         margin: 6% 35%;
-        padding: 0.5% 2.5%;
+        padding: 0% 2.5% 3.5% 2.5%;
         border: 1px solid #ccc;
         width: 30%;
         height: auto;
@@ -458,7 +458,9 @@
         font-size: 18px;
         font-weight: 500;
     }
-    
+    .invite-participant>span{
+        font-weight: bold;
+    }
     .search-user {
         width: 100%;
         padding: 1.5% 2%;
@@ -466,7 +468,7 @@
     
     .search-user>input {
         width: 100%;
-        padding: 1.2% 8%;
+        padding: 1.5% 8%;
         border: 1px solid rgb(255, 78, 107);
         outline: none;
         font-size: 14px;
@@ -475,7 +477,7 @@
     
     .search-user>i {
         position: absolute;
-        top: 24vh;
+        top: 32vh;
         left: 38.5%;
         font-weight: bold;
         color: rgb(255, 78, 107)
@@ -484,14 +486,14 @@
     .search-user>input::placeholder {
         color: rgb(82, 82, 82);
         font-weight: 500;
-        font-size: 13px;
+        font-size: 14px;
     }
     
     .add-participant-submit {
         width: 100% !important;
         text-align: center !important;
         color: #fff !important;
-        height: 26px !important;
+        height: 30px !important;
         background: rgb(231, 112, 132) !important;
         border-radius: 5px !important;
         outline: none !important;
@@ -505,4 +507,29 @@
     
     .add-participant-submit:hover {
         background: rgb(207, 98, 116);
+    }
+
+    .invite-icon{
+        width:100%;
+        text-align: center;
+    }
+    .invite-icon>i{
+        font-size: 44px;
+        color:rgb(255,78,107);
+    }
+
+    .fa-times{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 100%;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    #close-event-form{
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 97%;
+        font-size: 17px;
+        cursor: pointer;
     }
