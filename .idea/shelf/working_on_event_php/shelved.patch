@@ -1,0 +1,203 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a84a5d4f-7113-4056-85c1-39eb033b5fd3\" name=\"Default Changelist\" comment=\"working on event.php\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\" doNotAsk=\"true\" notifyAboutMissingVendor=\"false\" synchronizationState=\"SYNCHRONIZE\">\r\n    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>\r\n    <execution>\r\n      <executable path=\"composer\" />\r\n    </execution>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"PREVIOUS_COMMIT_AUTHORS\">\r\n      <list>\r\n        <option value=\"N-Pacis &lt;pacisnkubito@gmail.com&gt;\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"PhpWorkspaceProjectConfiguration\" interpreter_name=\"PHP 8.0\">\r\n    <include_path>\r\n      <path value=\"$PROJECT_DIR$\" />\r\n    </include_path>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1rOJeDZaqZxTKPsRAVhadvk4cBs\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DatabaseDriversLRU\" value=\"mysql\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.keymap\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a84a5d4f-7113-4056-85c1-39eb033b5fd3\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1618841300233</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1618841300233</updated>\r\n      <workItem from=\"1618841303753\" duration=\"532000\" />\r\n      <workItem from=\"1618841852100\" duration=\"511000\" />\r\n      <workItem from=\"1618842373214\" duration=\"413000\" />\r\n      <workItem from=\"1618851423761\" duration=\"1185000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"working on event.php\">\r\n      <created>1618852572812</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1618852572812</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"working on event.php\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"working on event.php\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0096bd993337b363d1f79b11b59547ca0445a898)
++++ b/.idea/workspace.xml	(date 1618857048901)
+@@ -1,7 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="a84a5d4f-7113-4056-85c1-39eb033b5fd3" name="Default Changelist" comment="working on event.php" />
++    <list default="true" id="a84a5d4f-7113-4056-85c1-39eb033b5fd3" name="Default Changelist" comment="working on event.php">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/dashboard-page/dashboard-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/dashboard-page.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/dashboard-page/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/event.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/dashboard-page/events-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/events-page.php" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -38,6 +43,7 @@
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="nodejs_package_manager_path" value="npm" />
+     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+@@ -52,7 +58,7 @@
+       <workItem from="1618841303753" duration="532000" />
+       <workItem from="1618841852100" duration="511000" />
+       <workItem from="1618842373214" duration="413000" />
+-      <workItem from="1618851423761" duration="1185000" />
++      <workItem from="1618851423761" duration="3822000" />
+     </task>
+     <task id="LOCAL-00001" summary="working on event.php">
+       <created>1618852572812</created>
+Index: dashboard-page/dashboard-page.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>    * {\r\n        margin: 0;\r\n        padding: 0;\r\n        box-sizing: border-box;\r\n    }\r\n    \r\n    body {\r\n        font-family: 'Lato', sans-serif;\r\n        background-color: #f1f1f1;\r\n    }\r\n    \r\n    .navbar-div {\r\n        width: 100%;\r\n        display: flex;\r\n        background-color: #fff;\r\n        flex-wrap: wrap;\r\n        box-shadow: 2px 2px 10px #ccc;\r\n    }\r\n    \r\n    .app-title {\r\n        text-align: center;\r\n        font-size: 35px;\r\n        opacity: .6;\r\n        width: 100%;\r\n        margin-bottom: 1%;\r\n        text-transform: uppercase;\r\n    }\r\n    \r\n    .app-title::first-letter {\r\n        color: rgb(255, 78, 107);\r\n        font-size: 50px;\r\n        font-weight: bold;\r\n    }\r\n    \r\n    .navbar-main-content {\r\n        display: flex;\r\n        width: 100%;\r\n    }\r\n    \r\n    nav {\r\n        width: 85%;\r\n    }\r\n    \r\n    nav>ul {\r\n        display: flex;\r\n        padding: 0 0 0 30%;\r\n    }\r\n    \r\n    nav>ul>li {\r\n        list-style-type: none;\r\n        margin: 0 3%;\r\n    }\r\n    \r\n    nav>ul>li>a {\r\n        text-decoration: none;\r\n        color: #000;\r\n        font-size: 18px;\r\n        padding: 0 19%;\r\n    }\r\n    \r\n    a.active {\r\n        border-bottom: 4px solid rgb(255, 78, 107);\r\n        border-radius: 4px;\r\n        font-weight: bold;\r\n    }\r\n    \r\n    .profile-name {\r\n        font-weight: normal;\r\n        font-size: 25px;\r\n    }\r\n    \r\n    .no-events-div {\r\n        width: 100%;\r\n        padding-left: 20%;\r\n        padding-top: 0%;\r\n    }\r\n    \r\n    .no-events-div>img {\r\n        width: 60%;\r\n        height: 80vh;\r\n    }\r\n    \r\n    .no-events-text {\r\n        font-size: 25px;\r\n        font-weight: bold;\r\n        margin-left: 15%;\r\n        margin-top: -3%;\r\n        text-transform: uppercase;\r\n    }\r\n    \r\n    .new-event-btn {\r\n        background-color: rgb(255, 78, 107);\r\n        color: #fff;\r\n        padding: 0.7% 0.5%;\r\n        width: 9%;\r\n        font-weight: bold;\r\n        font-size: 15px;\r\n        border: none;\r\n        border-radius: 5px;\r\n        margin-left: 88%;\r\n        margin-top: 0.8%;\r\n        cursor: pointer;\r\n        outline: none;\r\n    }\r\n    \r\n    .new-event-btn:hover {\r\n        background-color: rgb(241, 50, 82);\r\n    }\r\n    \r\n    .new-event-btn>i {\r\n        margin-right: 9%;\r\n    }\r\n    \r\n    .event-form {\r\n        background-color: rgba(0, 0, 0, 0.473);\r\n        width: 100%;\r\n        height: 100vh;\r\n        top: 0;\r\n        position: absolute;\r\n        display: none;\r\n    }\r\n    \r\n    .event-form>form {\r\n        margin: 6% 35%;\r\n        padding: 0.5% 1.5%;\r\n        border: 1px solid #ccc;\r\n        width: 30%;\r\n        height: auto;\r\n        background: #fff;\r\n        box-shadow: 2px 2px 10px rgb(160, 159, 159);\r\n        border-radius: 7px;\r\n    }\r\n    \r\n    .new-event-title {\r\n        text-align: center;\r\n        font-size: 25px;\r\n    }\r\n    \r\n    .form-group {\r\n        padding: 2%;\r\n    }\r\n    \r\n    .form-group>label {\r\n        width: 100%;\r\n        display: block;\r\n        font-size: 19px;\r\n    }\r\n    \r\n    .form-group>input {\r\n        width: 100%;\r\n        padding: 2%;\r\n        font-size: 17px;\r\n        border: 1px solid rgb(231, 112, 132);\r\n        outline: none;\r\n    }\r\n    \r\n    .form-group>input:focus {\r\n        border: 1px solid rgb(207, 91, 111)\r\n    }\r\n    \r\n    input[type=\"submit\"] {\r\n        width: 100%;\r\n        text-align: center;\r\n        color: #fff;\r\n        height: 42px;\r\n        background: rgb(231, 112, 132);\r\n        border-radius: 5px;\r\n        outline: none;\r\n        cursor: pointer;\r\n        border: none;\r\n        font-size: 18px;\r\n        font-weight: bold;\r\n        text-transform: uppercase;\r\n        margin-top: 2%;\r\n    }\r\n    \r\n    input[type='submit']:hover {\r\n        background: rgb(207, 98, 116);\r\n    }\r\n    \r\n    .error-message-div {\r\n        background-color: rgb(219, 67, 67);\r\n        margin-top: 0px;\r\n        position: sticky;\r\n        top: 20px;\r\n        z-index: 10;\r\n        padding: 0.5%;\r\n        margin-bottom: 0%;\r\n    }\r\n    \r\n    .error-message-div>p {\r\n        font-size: 17px;\r\n        text-align: center;\r\n        color: #fff;\r\n        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\r\n        font-weight: 600;\r\n    }\r\n    \r\n    .events-div {\r\n        width: 100%;\r\n        height: auto;\r\n        padding: 0.2% 6%;\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n    }\r\n    \r\n    .event {\r\n        height: 210px;\r\n        margin-right: 5%;\r\n        width: 20%;\r\n        background-color: #ccc;\r\n        box-shadow: 2px 2px 2px #dfdfdf;\r\n        border-radius: 5px;\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        cursor: pointer;\r\n        transition: transform .5s;\r\n    }\r\n    \r\n    .events-link {\r\n        text-decoration: none;\r\n        width: 100%;\r\n    }\r\n    \r\n    .event:hover {\r\n        transform: scale(1.025)\r\n    }\r\n    \r\n    .event-image {\r\n        width: 100%;\r\n        height: 60%;\r\n    }\r\n    \r\n    .event-description {\r\n        border-bottom-left-radius: 5px;\r\n        border-bottom-right-radius: 5px;\r\n        background-color: #fff;\r\n        width: 100%;\r\n        height: 40%;\r\n        padding: 0.4% 5%;\r\n    }\r\n    \r\n    .event-name {\r\n        text-align: center;\r\n        font-size: 17px;\r\n        color: #000;\r\n    }\r\n    \r\n    .event-desc {\r\n        color: rgb(50, 54, 54);\r\n        font-size: 17px;\r\n        white-space: nowrap;\r\n        width: 100%;\r\n        overflow: hidden;\r\n        text-overflow: ellipsis;\r\n        margin-bottom: 2%;\r\n    }\r\n    \r\n    .event-desc::first-letter {\r\n        text-transform: uppercase;\r\n    }\r\n    \r\n    .event-duration {\r\n        color: rgb(50, 54, 54);\r\n    }\r\n    \r\n    .event-duration>span {\r\n        color: rgb(255, 78, 107);\r\n        text-decoration: underline;\r\n        font-weight: bold;\r\n        margin-right: 2%;\r\n    }\r\n    \r\n    .event-creator {\r\n        color: rgb(96, 100, 100);\r\n        font-style: italic;\r\n        font-size: 15px;\r\n        margin-left: 46%;\r\n    }\r\n    \r\n    .event-page-image {\r\n        width: 100%;\r\n        background-color: rgb(226, 222, 222);\r\n        height: 220px;\r\n        display: flex;\r\n        padding-left: 35%;\r\n        padding-top: 70px;\r\n    }\r\n    \r\n    .event-page-image>i {\r\n        font-size: 45px;\r\n        margin-right: 2%;\r\n        color: #000;\r\n    }\r\n    \r\n    .event-page-image-text {\r\n        font-size: 23px;\r\n        text-transform: uppercase;\r\n        font-weight: bold;\r\n        margin-top: 1%;\r\n    }\r\n    \r\n    .event-page-title {\r\n        background-color: #fff;\r\n        width: 30%;\r\n        height: 70px;\r\n        margin-top: -2%;\r\n        margin-left: 33%;\r\n        border-top-right-radius: 5px;\r\n        border-top-left-radius: 5px;\r\n        position: absolute;\r\n    }\r\n    \r\n    .event-page-description {\r\n        width: 100%;\r\n        padding: 45px 2% 0;\r\n        height: 70vh;\r\n        background-color: #fff;\r\n    }\r\n    \r\n    .event-page-title-text {\r\n        text-align: center;\r\n        margin-top: 4%;\r\n        color: rgb(255, 78, 107);\r\n        text-transform: uppercase;\r\n    }\r\n    \r\n    .event-page-description-paragraph {\r\n        font-size: 17px;\r\n        letter-spacing: 0.2px;\r\n    }\r\n    \r\n    .event-page-duration {\r\n        margin-top: 1%;\r\n        font-size: 19px;\r\n    }\r\n    \r\n    .event-page-duration>span {\r\n        color: rgb(255, 78, 107);\r\n        font-weight: bold;\r\n        margin-right: 0.5%;\r\n        font-size: 20px;\r\n        text-decoration: underline;\r\n    }\r\n    \r\n    .go-back-link {\r\n        background-color: rgb(255, 78, 107);\r\n        border-radius: 5px;\r\n        position: absolute;\r\n        top: 5px;\r\n        left: 5px;\r\n        padding: 0.8% 1%;\r\n        color: #fff;\r\n        font-weight: bold;\r\n        display: flex;\r\n        white-space: nowrap;\r\n        text-decoration: none;\r\n    }\r\n    \r\n    .go-back-link>i {\r\n        margin-top: -3%;\r\n        font-size: 24px;\r\n        margin-right: 4%;\r\n    }\r\n    \r\n    .event-members {\r\n        border: 1px solid rgb(255, 78, 107);\r\n        width: 60%;\r\n        margin-left: 20%;\r\n        margin-top: 3%;\r\n        min-height: 100px;\r\n        height: auto;\r\n        border-radius: 5px;\r\n        box-shadow: 2px 2px 10px rgb(255, 201, 213);\r\n    }\r\n    \r\n    .search-member {\r\n        width: 100%;\r\n        padding: 1.5% 2%;\r\n        border-bottom: 1px solid rgb(255, 78, 107);\r\n    }\r\n    \r\n    .search-member>input {\r\n        width: 100%;\r\n        padding: 0.9% 4%;\r\n        border: 1px solid rgb(255, 78, 107);\r\n        outline: none;\r\n        font-size: 15px;\r\n        border-radius: 5px;\r\n    }\r\n    \r\n    .search-member>i {\r\n        position: absolute;\r\n        top: 60vh;\r\n        left: 23%;\r\n        font-weight: bold;\r\n        color: rgb(255, 78, 107)\r\n    }\r\n    \r\n    .search-member>input::placeholder {\r\n        color: rgb(59, 59, 59);\r\n        font-weight: 500;\r\n    }\r\n    \r\n    .members {\r\n        width: 100%;\r\n    }\r\n    \r\n    .members>p {\r\n        font-weight: bold;\r\n        text-align: center;\r\n        margin-top: 2%;\r\n        font-size: 20px;\r\n    }\r\n    \r\n    .members>button {\r\n        background-color: rgb(255, 78, 107);\r\n        border: 1px solid rgb(219, 67, 67);\r\n        outline: none;\r\n        cursor: pointer;\r\n        padding: 0.6% 1%;\r\n        margin-left: 38%;\r\n        margin-bottom: 2%;\r\n        margin-top: 2%;\r\n        color: #fff;\r\n        font-size: 17px;\r\n        border-radius: 5px;\r\n        font-weight: bold;\r\n    }\r\n    \r\n    .members>button:hover {\r\n        background-color: rgb(255, 72, 102)\r\n    }\r\n    \r\n    .participant-form {\r\n        background-color: rgba(0, 0, 0, 0.473);\r\n        width: 100%;\r\n        height: 100vh;\r\n        top: 0;\r\n        position: absolute;\r\n        display: none;\r\n        margin-left: -2%;\r\n    }\r\n    \r\n    .participant-form>form {\r\n        margin: 6% 35%;\r\n        padding: 0.5% 2.5%;\r\n        border: 1px solid #ccc;\r\n        width: 30%;\r\n        height: auto;\r\n        background: #fff;\r\n        box-shadow: 2px 2px 10px rgb(160, 159, 159);\r\n        border-radius: 7px;\r\n    }\r\n    \r\n    .invite-participant {\r\n        text-align: center;\r\n        font-size: 18px;\r\n        font-weight: 500;\r\n    }\r\n    \r\n    .search-user {\r\n        width: 100%;\r\n        padding: 1.5% 2%;\r\n    }\r\n    \r\n    .search-user>input {\r\n        width: 100%;\r\n        padding: 1.2% 8%;\r\n        border: 1px solid rgb(255, 78, 107);\r\n        outline: none;\r\n        font-size: 14px;\r\n        border-radius: 5px;\r\n    }\r\n    \r\n    .search-user>i {\r\n        position: absolute;\r\n        top: 24vh;\r\n        left: 38.5%;\r\n        font-weight: bold;\r\n        color: rgb(255, 78, 107)\r\n    }\r\n    \r\n    .search-user>input::placeholder {\r\n        color: rgb(82, 82, 82);\r\n        font-weight: 500;\r\n        font-size: 13px;\r\n    }\r\n    \r\n    .add-participant-submit {\r\n        width: 100% !important;\r\n        text-align: center !important;\r\n        color: #fff !important;\r\n        height: 26px !important;\r\n        background: rgb(231, 112, 132) !important;\r\n        border-radius: 5px !important;\r\n        outline: none !important;\r\n        cursor: pointer !important;\r\n        border: none !important;\r\n        font-size: 16px !important;\r\n        font-weight: bold !important;\r\n        text-transform: uppercase !important;\r\n        margin-top: 2% !important;\r\n    }\r\n    \r\n    .add-participant-submit:hover {\r\n        background: rgb(207, 98, 116);\r\n    }
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dashboard-page/dashboard-page.css b/dashboard-page/dashboard-page.css
+--- a/dashboard-page/dashboard-page.css	(revision 0096bd993337b363d1f79b11b59547ca0445a898)
++++ b/dashboard-page/dashboard-page.css	(date 1618857097537)
+@@ -391,7 +391,7 @@
+     
+     .search-member>i {
+         position: absolute;
+-        top: 60vh;
++        top: 64vh;
+         left: 23%;
+         font-weight: bold;
+         color: rgb(255, 78, 107)
+@@ -444,7 +444,7 @@
+     
+     .participant-form>form {
+         margin: 6% 35%;
+-        padding: 0.5% 2.5%;
++        padding: 0% 2.5% 3.5% 2.5%;
+         border: 1px solid #ccc;
+         width: 30%;
+         height: auto;
+@@ -458,7 +458,9 @@
+         font-size: 18px;
+         font-weight: 500;
+     }
+-    
++    .invite-participant>span{
++        font-weight: bold;
++    }
+     .search-user {
+         width: 100%;
+         padding: 1.5% 2%;
+@@ -466,7 +468,7 @@
+     
+     .search-user>input {
+         width: 100%;
+-        padding: 1.2% 8%;
++        padding: 1.5% 8%;
+         border: 1px solid rgb(255, 78, 107);
+         outline: none;
+         font-size: 14px;
+@@ -475,7 +477,7 @@
+     
+     .search-user>i {
+         position: absolute;
+-        top: 24vh;
++        top: 32vh;
+         left: 38.5%;
+         font-weight: bold;
+         color: rgb(255, 78, 107)
+@@ -484,14 +486,14 @@
+     .search-user>input::placeholder {
+         color: rgb(82, 82, 82);
+         font-weight: 500;
+-        font-size: 13px;
++        font-size: 14px;
+     }
+     
+     .add-participant-submit {
+         width: 100% !important;
+         text-align: center !important;
+         color: #fff !important;
+-        height: 26px !important;
++        height: 30px !important;
+         background: rgb(231, 112, 132) !important;
+         border-radius: 5px !important;
+         outline: none !important;
+@@ -505,4 +507,29 @@
+     
+     .add-participant-submit:hover {
+         background: rgb(207, 98, 116);
++    }
++
++    .invite-icon{
++        width:100%;
++        text-align: center;
++    }
++    .invite-icon>i{
++        font-size: 44px;
++        color:rgb(255,78,107);
++    }
++
++    .fa-times{
++        margin-top: 2%;
++        margin-bottom: 5%;
++        margin-left: 100%;
++        font-size: 17px;
++        cursor: pointer;
++    }
++
++    #close-event-form{
++        margin-top: 2%;
++        margin-bottom: 5%;
++        margin-left: 97%;
++        font-size: 17px;
++        cursor: pointer;
+     }
+\ No newline at end of file
+Index: dashboard-page/event.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\nsession_start();\r\nrequire_once '../utils/connection.php';\r\nif (!$connect) {\r\n    $_SESSION[\"error-message\"] = \"Connection to the database failed\";\r\n    header(\"Location: ../login-page/login.php\");\r\n} else {\r\n    $user = $_SESSION[\"username\"];\r\n    if (!$user) {\r\n        $_SESSION[\"error-message\"] = \"You need to login first!\";\r\n        header(\"Location: ../login-page/login.php\");\r\n    } else {\r\n        $selectUserQuery = mysqli_query($connect, \"SELECT * FROM users where username='$user'\");\r\n        if (mysqli_num_rows($selectUserQuery) == 0) {\r\n            $_SESSION[\"error-message\"] = \"No user found with the supplied username and password\";\r\n            header(\"Location: ../login-page/login.php\");\r\n        } else {\r\n            $event = $_GET['event'];\r\n            if (!$event) {\r\n                header(\"Location: events-page.php\");\r\n            } else {\r\n                $selectEventQuery = mysqli_query($connect, \"SELECT * FROM events where event_id=$event\");\r\n                if (!$selectEventQuery) {\r\n                    $_SESSION[\"error-message\"] = \"Invalid event!\";\r\n                    header(\"Location: events-page.php\");\r\n                } else {\r\n                    $row = mysqli_fetch_assoc($selectEventQuery);\r\n                }\r\n            }\r\n        }\r\n    }\r\n}\r\n\r\n?>\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title><?php echo $row[\"event_name\"] ?></title>\r\n    <script src=\"https://kit.fontawesome.com/1681f60826.js\" crossorigin=\"anonymous\"></script>\r\n    <link rel=\"stylesheet\" href=\"dashboard-page.css?v=<?php echo time(); ?>\">\r\n</head>\r\n\r\n<body id=\"body\" onload=\"clearSession()\">\r\n    <a href=\"events-page.php\" class=\"go-back-link\">\r\n        <i class=\"fa fa-angle-double-left\"></i>Go back\r\n    </a>\r\n    <div class=\"event-page-image\">\r\n        <i class=\"far fa-images\"></i>\r\n        <p class=\"event-page-image-text\">Event Image Here</p>\r\n    </div>\r\n    <div class=\"event-page-title\">\r\n        <h2 class=\"event-page-title-text\"><?php echo $row[\"event_name\"] ?></h2>\r\n    </div>\r\n    <div class=\"event-page-description\">\r\n        <p class=\"event-page-description-paragraph\"><?php echo $row[\"event_description\"] ?></p>\r\n        <p class=\"event-page-duration\"><span>Date:</span><?php echo $row[\"event_duration\"] ?></p>\r\n        <div class=\"event-members\">\r\n            <div class=\"search-member\">\r\n                <i class=\"fa fa-search\"></i>\r\n                <input type=\"text\" name=\"search-member\" id=\"search-member\" placeholder=\"Find A participant...\">\r\n            </div>\r\n            <div class=\"members\">\r\n                <p>The event has no participants yet</p>\r\n                <button id=\"invite-participant-btn\">Invite a participant</button>\r\n            </div>\r\n        </div>\r\n        <div class=\"participant-form\" id=\"participant-form\">\r\n            <form action=\"add-participant-form.php\" method=\"post\">\r\n                <h1 class=\"invite-participant\">Invite a participant to <span><?php echo $row[\"event_name\"]?></span></h1>\r\n                <div class=\"search-user\">\r\n                    <i class=\"fa fa-search\"></i>\r\n                    <input type=\"text\" name=\"search-user\" id=\"search-user\" placeholder=\"Search user by username....\">\r\n                </div>\r\n                <input type=\"submit\" value=\"Invite to <?php echo $row[\"event_name\"]?>\" class=\"add-participant-submit\">\r\n            </form>\r\n        </div>\r\n    </div>\r\n    <script type=\"text/javascript\">\r\n        function clearSession() {\r\n            <?php\r\n            $_SESSION['error-message'] = \"\";\r\n            ?>\r\n        }\r\n        document.getElementById('invite-participant-btn').addEventListener('click', function() {\r\n            document.getElementById(\"participant-form\").style.display = \"block\";\r\n            document.getElementById(\"body\").style.overflowY = \"hidden\";\r\n            document.querySelector(\".error-message-div\").style.display = \"none\";\r\n        });\r\n    </script>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dashboard-page/event.php b/dashboard-page/event.php
+--- a/dashboard-page/event.php	(revision 0096bd993337b363d1f79b11b59547ca0445a898)
++++ b/dashboard-page/event.php	(date 1618856746567)
+@@ -69,6 +69,8 @@
+         </div>
+         <div class="participant-form" id="participant-form">
+             <form action="add-participant-form.php" method="post">
++                <i class="fas fa-times" id="close-participant-form"></i>
++                <p class="invite-icon"><i class="fas fa-users"></i></p>
+                 <h1 class="invite-participant">Invite a participant to <span><?php echo $row["event_name"]?></span></h1>
+                 <div class="search-user">
+                     <i class="fa fa-search"></i>
+@@ -89,6 +91,9 @@
+             document.getElementById("body").style.overflowY = "hidden";
+             document.querySelector(".error-message-div").style.display = "none";
+         });
++        document.querySelector('#close-participant-form').addEventListener('click',function(){
++            document.getElementById("participant-form").style.display="none";
++        })
+     </script>
+ </body>
+ 
+Index: dashboard-page/events-page.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\r\nsession_start();\r\nrequire_once '../utils/connection.php';\r\nif (!$connect) {\r\n    $_SESSION[\"error-message\"] = \"Connection to the database failed\";\r\n    header(\"Location: ../login-page/login.php\");\r\n} else {\r\n    $user = $_SESSION[\"username\"];\r\n    if (!$user) {\r\n        $_SESSION[\"error-message\"] = \"You need to login first!\";\r\n        header(\"Location: ../login-page/login.php\");\r\n    } else {\r\n        $selectUserQuery = mysqli_query($connect, \"SELECT * FROM users where username='$user'\");\r\n        if (mysqli_num_rows($selectUserQuery) == 0) {\r\n            $_SESSION[\"error-message\"] = \"No user found with the supplied username and password\";\r\n            header(\"Location: ../login-page/login.php\");\r\n        } else {\r\n            $row = mysqli_fetch_assoc($selectUserQuery);\r\n            $user_id = $row[\"user_id\"];\r\n        }\r\n    }\r\n}\r\n\r\n?>\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n    <title>Events</title>\r\n    <script src=\"https://kit.fontawesome.com/1681f60826.js\" crossorigin=\"anonymous\"></script>\r\n    <link rel=\"stylesheet\" href=\"dashboard-page.css?v=<?php echo time(); ?>\">\r\n</head>\r\n\r\n<body id=\"body\" onload=\"clearSession()\">\r\n    <div class=\"navbar-div\">\r\n        <h1 class=\"app-title\">EVENT MANAGER</h1>\r\n        <div class=\"navbar-main-content\">\r\n            <nav>\r\n                <ul>\r\n                    <li><a href=\"\" class=\"active\">Events</a></li>\r\n                    <li><a href=\"notifications-page.php\">Notifications</a></li>\r\n                </ul>\r\n            </nav>\r\n            <h2 class=\"profile-name\"><?php echo $_SESSION[\"username\"] ?></h2>\r\n        </div>\r\n    </div>\r\n    <?php if ($_SESSION['error-message'] != \"\") : ?>\r\n        <div class=\"error-message-div\">\r\n            <p><?php echo $_SESSION['error-message']; ?></p>\r\n        </div>\r\n    <?php endif; ?>\r\n    <button class=\"new-event-btn\" id=\"new-event-btn\"><i class=\"fas fa-calendar-plus\"></i>New Event</button>\r\n    <?php\r\n    $selectQuery = mysqli_query($connect, \"SELECT * FROM events INNER JOIN users ON user_id=creator where creator=$user_id\");\r\n    if (mysqli_num_rows($selectQuery) == 0) {\r\n    ?>\r\n        <div class=\"no-events-div\">\r\n            <img src=\"../utils/images/events.svg\" alt=\"no events\">\r\n            <h2 class=\"no-events-text\">You have no events so far!</h2>\r\n        </div>\r\n    <?php\r\n    } else {\r\n    ?>\r\n\r\n        <div class=\"events-div\">\r\n            <?php while ($row = mysqli_fetch_assoc($selectQuery)) {\r\n                if ($row[\"username\"] == $user) {\r\n                    $creator = \"you\";\r\n                } else {\r\n                    $creator = $row[\"username\"];\r\n                }\r\n            ?>\r\n                <div class=\"event\">\r\n                    <a href=\"event.php?event=<?php echo $row['event_id'] ?>\" class=\"events-link\">\r\n                        <div class=\"event-image\">\r\n\r\n                        </div>\r\n                        <div class=\"event-description\">\r\n                            <h2 class=\"event-name\"><?php echo $row[\"event_name\"] ?></h2>\r\n                            <p class=\"event-desc\"><?php echo $row[\"event_description\"] ?></p>\r\n                            <p class=\"event-duration\"><span>Date:</span><?php echo $row[\"event_duration\"] ?></p>\r\n                            <p class=\"event-creator\">Created by <?php echo $creator ?></p>\r\n                        </div>\r\n                    </a>\r\n                </div>\r\n            <?php } ?>\r\n        </div>\r\n    <?php\r\n    }\r\n    ?>\r\n    <div class=\"event-form\" id=\"event-form\">\r\n        <form action=\"add-eventHandler.php\" method=\"post\">\r\n            <h1 class=\"new-event-title\">Add A New Event </h1>\r\n            <div class=\"form-group\">\r\n                <label for=\"event-name\">Event Name</label>\r\n                <input type=\"text\" name=\"event-name\" id=\"event-name\" required>\r\n            </div>\r\n            <div class=\"form-group\">\r\n                <label for=\"event-desc\">Event Description</label>\r\n                <input type=\"text\" name=\"event-desc\" id=\"event-desc\" required>\r\n            </div>\r\n            <div class=\"form-group\">\r\n                <label for=\"event-duration\">Event Duration</label>\r\n                <input type=\"date\" name=\"event-duration\" id=\"event-duration\" min=\"<?php echo date(\"Y-m-d\"); ?>\" required>\r\n            </div>\r\n            <input type=\"submit\" value=\"Add A New Event\">\r\n        </form>\r\n    </div>\r\n    <script type=\"text/javascript\">\r\n        document.getElementById('new-event-btn').addEventListener('click', function() {\r\n            document.getElementById(\"event-form\").style.display = \"block\";\r\n            document.getElementById(\"body\").style.overflowY = \"hidden\";\r\n            document.querySelector(\".error-message-div\").style.display = \"none\";\r\n        });\r\n\r\n        function clearSession() {\r\n            <?php\r\n            $_SESSION['error-message'] = \"\";\r\n            ?>\r\n        }\r\n    </script>\r\n</body>\r\n\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/dashboard-page/events-page.php b/dashboard-page/events-page.php
+--- a/dashboard-page/events-page.php	(revision 0096bd993337b363d1f79b11b59547ca0445a898)
++++ b/dashboard-page/events-page.php	(date 1618857044651)
+@@ -92,6 +92,7 @@
+     ?>
+     <div class="event-form" id="event-form">
+         <form action="add-eventHandler.php" method="post">
++            <i class="fas fa-times" id="close-event-form"></i>
+             <h1 class="new-event-title">Add A New Event </h1>
+             <div class="form-group">
+                 <label for="event-name">Event Name</label>
+@@ -114,6 +115,9 @@
+             document.getElementById("body").style.overflowY = "hidden";
+             document.querySelector(".error-message-div").style.display = "none";
+         });
++        document.querySelector('#close-event-form').addEventListener('click',function(){
++            document.getElementById("event-form").style.display="none";
++        });
+ 
+         function clearSession() {
+             <?php
