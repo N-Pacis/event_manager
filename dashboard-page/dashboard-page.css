@@ -391,7 +391,7 @@
     
     .search-member>i {
         position: absolute;
-        top: 64.2vh;
+        top: 60vh;
         left: 23%;
         font-weight: bold;
         color: rgb(255, 78, 107)
@@ -444,7 +444,7 @@
     
     .participant-form>form {
         margin: 6% 35%;
-        padding: 4.5% 2.5%;
+        padding: 0.5% 2.5%;
         border: 1px solid #ccc;
         width: 30%;
         height: auto;
@@ -475,7 +475,7 @@
     
     .search-user>i {
         position: absolute;
-        top: 28vh;
+        top: 24vh;
         left: 38.5%;
         font-weight: bold;
         color: rgb(255, 78, 107)
