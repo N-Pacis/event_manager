@@ -16,6 +16,7 @@ if (!$connect) {
             header("Location: ../login-page/login.php");
         } else {
             $event = $_GET['event'];
+            $_SESSION["event_id"] = $event;
             if (!$event) {
                 header("Location: events-page.php");
             } else {
@@ -45,6 +46,11 @@ if (!$connect) {
 </head>
 
 <body id="body" onload="clearSession()">
+    <?php if ($_SESSION['error-message'] != "") : ?>
+        <div class="error-message-div">
+            <p><?php echo $_SESSION['error-message']; ?></p>
+        </div>
+    <?php endif; ?>
     <a href="events-page.php" class="go-back-link">
         <i class="fa fa-angle-double-left"></i>Go back
     </a>
@@ -81,7 +87,7 @@ if (!$connect) {
                 <div class="search-result" id="search-result">
 
                 </div>
-                <input type="submit" value="Invite to <?php echo $row["event_name"]?>" class="add-participant-submit">
+                <input type="submit" value="Invite to <?php echo $row["event_name"]?>" disabled class="add-participant-submit">
             </form>
         </div>
     </div>
@@ -124,6 +130,7 @@ if (!$connect) {
                 let splitText = text.trim().split("\n");
                 $("#search-user").val(splitText[0]);
                 $("#search-result").html("");
+                $(".add-participant-submit").removeAttr("disabled");
             })
         })
     </script>

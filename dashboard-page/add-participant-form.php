@@ -4,35 +4,40 @@ require_once '../utils/connection.php';
 
 if(!$connect){
     $_SESSION["error-message"] = "Connection to the database failed";
-    header("Location: events-page.php");
+    header("Location: event.php?event=".$_SESSION['event_id']);
 }
 else{
-    $event_name = mysqli_real_escape_string($connect,trim($_POST['event-name']));
-    $event_desc = mysqli_real_escape_string($connect,trim($_POST['event-desc']));
-    $event_dur = mysqli_real_escape_string($connect,trim($_POST['event-duration']));
-    $creator = $_SESSION["username"];
+    $user = mysqli_real_escape_string($connect,trim($_POST['search-user']));
+    $event = $_SESSION["event_id"];
 
 
-    if($event_name === "" || $event_desc === "" || $event_dur === "" || $creator === "" || !$event_name || !$event_desc || !$event_dur || !$creator ) {
+    if($user === "" || $event === "" || !$user || !$event ) {
         $_SESSION["error-message"] = "All fields are required";
-        header("Location: events-page.php");
+        header("Location: event.php?event=".$_SESSION['event_id']);
     }
     else{
-        $checkCreatorQuery=mysqli_query($connect,"SELECT * FROM users where username like '$creator'");
-        if(mysqli_num_rows($checkCreatorQuery)==0){
-            $_SESSION["error-message"] = "Unable to find the creator for the event";
-            header("Location: events-page.php");
+        $checkEventQuery=mysqli_query($connect,"SELECT * FROM events where event_id='$event'");
+        if(mysqli_num_rows($checkEventQuery)==0){
+            $_SESSION["error-message"] = "Unable to find the event";
+            header("Location: event.php?event=".$_SESSION['event_id']);
         }
         else{
-            $row=mysqli_fetch_assoc($checkCreatorQuery);
-            $user_id = $row["user_id"];
-            $insertQuery = mysqli_query($connect,"INSERT INTO events(event_name,event_description,event_duration,creator) values('$event_name','$event_desc','$event_dur','$user_id')");
-            if(!$insertQuery){
-                $_SESSION["error-message"] = "Failed to add a new event due to ".mysqli_error($connect);
-                header("Location: events-page.php");
+            $checkUserQuery = mysqli_query($connect,"SELECT * FROM users where username='$user'");
+            if(mysqli_num_rows($checkUserQuery)==0){
+                $_SESSION["error-message"] = "Unable to find the user";
+                header("Location: event.php?event=".$_SESSION['event_id']);
             }
             else{
-                header("Location: ../dashboard-page/events-page.php");
+                $rowUser = mysqli_fetch_assoc($checkUserQuery);
+                $user_id=$rowUser["user_id"];
+                $insertQuery = mysqli_query($connect,"INSERT INTO event_members(event_id,user_id) values('$event','$user_id')");
+                if(!$insertQuery){
+                    $_SESSION["error-message"] = "Failed to add a new user due to ".mysqli_error($connect);
+                    header("Location: event.php?event=".$_SESSION['event_id']);
+                }
+                else{
+                    header("Location: event.php?event=".$_SESSION['event_id']);
+                }
             }
         }
     }
