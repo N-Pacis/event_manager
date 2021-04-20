@@ -9,7 +9,7 @@
     else{
         $username = mysqli_real_escape_string($connect,$_POST['username']);
         $firstname = mysqli_real_escape_string($connect,$_POST['firstname']);
-        $lastname = mysqli_real_escape_string($connect,$_POST['firstname']);
+        $lastname = mysqli_real_escape_string($connect,$_POST['lastname']);
         $email = mysqli_real_escape_string($connect,$_POST['email']);
         $password = mysqli_real_escape_string($connect,$_POST['password']);
         $repeat_password = mysqli_real_escape_string($connect,$_POST['repeat-password']);

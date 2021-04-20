@@ -533,3 +533,36 @@
         font-size: 17px;
         cursor: pointer;
     }
+
+    .search-result{
+        background-color: #fff;
+        width: 96%;
+        height: auto;
+        margin-left:2%;
+        margin-top:-1%;
+        border: 1px solid #f1f1f1;
+        position:relative;
+        border-radius: 4px;
+    }
+    .search-list-group{
+        cursor: pointer;
+        width: 100%;
+        padding: 4% 6.2%;
+        border-bottom: 1px solid #f1f1f1;
+    }
+    .result-item-two{
+        font-size: 10px;
+        color: #767676  ;
+    }
+    .result-item{
+        text-decoration: none;
+        width:100%;
+        display: block;
+        color: #000;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .search-list-group:hover{
+        background-color: rgba(243, 243, 243, 0.78);
+    }

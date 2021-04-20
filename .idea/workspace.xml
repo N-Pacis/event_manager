@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a84a5d4f-7113-4056-85c1-39eb033b5fd3" name="Default Changelist" comment="working on event.php" />
+    <list default="true" id="a84a5d4f-7113-4056-85c1-39eb033b5fd3" name="Default Changelist" comment="working on event.php">
+      <change afterPath="$PROJECT_DIR$/dashboard-page/add-participant-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard-page/searchAction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-page/dashboard-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/dashboard-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-page/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-page/registrationHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/login-page/registrationHandler.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,14 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0">
     <include_path>
@@ -41,6 +56,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="ShelveChangesManager" show_recycled="true" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,6 +69,7 @@
       <workItem from="1618841852100" duration="511000" />
       <workItem from="1618842373214" duration="413000" />
       <workItem from="1618851423761" duration="1185000" />
+      <workItem from="1618895274783" duration="7505000" />
     </task>
     <task id="LOCAL-00001" summary="working on event.php">
       <created>1618852572812</created>
@@ -61,7 +78,28 @@
       <option name="project" value="LOCAL" />
       <updated>1618852572812</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="working on event.php">
+      <created>1618857517920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618857517920</updated>
+    </task>
+    <task id="LOCAL-00003" summary="working on event.php">
+      <created>1618857542983</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618857542983</updated>
+    </task>
+    <task id="LOCAL-00004" summary="working on event.php">
+      <created>1618857681468</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618857681468</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

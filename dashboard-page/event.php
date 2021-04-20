@@ -40,6 +40,7 @@ if (!$connect) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $row["event_name"] ?></title>
     <script src="https://kit.fontawesome.com/1681f60826.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="dashboard-page.css?v=<?php echo time(); ?>">
 </head>
 
@@ -76,6 +77,9 @@ if (!$connect) {
                     <i class="fa fa-search"></i>
                     <input type="text" name="search-user" id="search-user" placeholder="Search user by username....">
                 </div>
+                <div class="search-result" id="search-result">
+
+                </div>
                 <input type="submit" value="Invite to <?php echo $row["event_name"]?>" class="add-participant-submit">
             </form>
         </div>
@@ -93,6 +97,31 @@ if (!$connect) {
         });
         document.querySelector('#close-participant-form').addEventListener('click',function(){
             document.getElementById("participant-form").style.display="none";
+        });
+
+        $(document).ready(function(){
+            $("#search-user").keyup(function(){
+                let searchText = $(this).val();
+                if(searchText != ''){
+                    $.ajax({
+                        url:"searchAction.php",
+                        method:"post",
+                        data:{query:searchText},
+                        success:function(response){
+                            $("#search-result").html(response)
+                        }
+                    });
+                }
+                else{
+                    $("#search-result").html("");
+                }
+            });
+            $(document).on("click","#search-result",function(){
+                let text = $(this).text();
+                let splitText = text.trim().split("\n");
+                $("#search-user").val(splitText[0]);
+                $("#search-result").html("");
+            })
         })
     </script>
 </body>
