@@ -76,6 +76,7 @@ if (!$connect) {
                 <div class="search-user">
                     <i class="fa fa-search"></i>
                     <input type="text" name="search-user" id="search-user" placeholder="Search user by username....">
+                    <i class="fas fa-spinner fa-pulse"></i>
                 </div>
                 <div class="search-result" id="search-result">
 
@@ -103,12 +104,14 @@ if (!$connect) {
             $("#search-user").keyup(function(){
                 let searchText = $(this).val();
                 if(searchText != ''){
+                    document.querySelector(".fa-pulse").style.display="block";
                     $.ajax({
                         url:"searchAction.php",
                         method:"post",
                         data:{query:searchText},
                         success:function(response){
-                            $("#search-result").html(response)
+                            $("#search-result").html(response);
+                            document.querySelector(".fa-pulse").style.display="none";
                         }
                     });
                 }
@@ -116,7 +119,7 @@ if (!$connect) {
                     $("#search-result").html("");
                 }
             });
-            $(document).on("click","#search-result",function(){
+            $(document).on("click","#search-list-group",function(){
                 let text = $(this).text();
                 let splitText = text.trim().split("\n");
                 $("#search-user").val(splitText[0]);

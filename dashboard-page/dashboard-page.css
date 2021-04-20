@@ -475,14 +475,21 @@
         border-radius: 5px;
     }
     
-    .search-user>i {
+    .search-user>.fa-search {
         position: absolute;
         top: 32vh;
         left: 38.5%;
         font-weight: bold;
         color: rgb(255, 78, 107)
     }
-    
+    .fa-pulse{
+        position: absolute;
+        top: 32vh;
+        left: 60.5%;
+        display: none;
+        font-weight: bold;
+        color: rgb(255, 78, 107)
+    }
     .search-user>input::placeholder {
         color: rgb(82, 82, 82);
         font-weight: 500;
@@ -494,7 +501,7 @@
         text-align: center !important;
         color: #fff !important;
         height: 30px !important;
-        background: rgb(231, 112, 132) !important;
+        background: rgb(245, 114, 138) !important;
         border-radius: 5px !important;
         outline: none !important;
         cursor: pointer !important;
@@ -506,7 +513,7 @@
     }
     
     .add-participant-submit:hover {
-        background: rgb(207, 98, 116);
+        background: rgb(229, 92, 117) !important;
     }
 
     .invite-icon{

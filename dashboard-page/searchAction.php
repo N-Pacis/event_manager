@@ -12,7 +12,7 @@
           $searchQuery = mysqli_query($connect,"Select username,firstname,lastname from users where username like '%$inputText%' and username != '$current_user' LIMIT 5");
           if(mysqli_num_rows($searchQuery) > 0){
               while($row = mysqli_fetch_assoc($searchQuery)){
-                  echo '<div class="search-list-group">
+                  echo '<div class="search-list-group" id="search-list-group">
                         <li href="" class="result-item">'.$row["username"].'</li>
                         <p class="result-item-two">'.$row["firstname"].' '.$row["lastname"].'</p>
                     </div>';
