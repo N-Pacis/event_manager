@@ -43,7 +43,10 @@ if (!$connect) {
                     <li><a href="notifications-page.php">Notifications</a></li>
                 </ul>
             </nav>
-            <h2 class="profile-name"><?php echo $_SESSION["username"] ?></h2>
+            <div class="profile-info">
+                <img src="../profileUploads/<?php echo $row['profilePic']; ?>" alt="<?php echo $row['profilePic'];?>" class="profilePic">
+                <h2 class="profile-name"><?php echo $_SESSION["username"] ?></h2>
+            </div>
         </div>
     </div>
     <?php if ($_SESSION['error-message'] != "") : ?>
@@ -65,22 +68,22 @@ if (!$connect) {
     ?>
 
         <div class="events-div">
-            <?php while ($row = mysqli_fetch_assoc($selectQuery)) {
-                if ($row["username"] == $user) {
+            <?php while ($rowEvent = mysqli_fetch_assoc($selectQuery)) {
+                if ($rowEvent["username"] == $user) {
                     $creator = "you";
                 } else {
-                    $creator = $row["username"];
+                    $creator = $rowEvent["username"];
                 }
             ?>
                 <div class="event">
-                    <a href="event.php?event=<?php echo $row['event_id'] ?>" class="events-link">
+                    <a href="event.php?event=<?php echo $rowEvent['event_id'] ?>" class="events-link">
                         <div class="event-image">
 
                         </div>
                         <div class="event-description">
-                            <h2 class="event-name"><?php echo $row["event_name"] ?></h2>
-                            <p class="event-desc"><?php echo $row["event_description"] ?></p>
-                            <p class="event-duration"><span>Date:</span><?php echo $row["event_duration"] ?></p>
+                            <h2 class="event-name"><?php echo $rowEvent["event_name"] ?></h2>
+                            <p class="event-desc"><?php echo $rowEvent["event_description"] ?></p>
+                            <p class="event-duration"><span>Date:</span><?php echo $rowEvent["event_duration"] ?></p>
                             <p class="event-creator">Created by <?php echo $creator ?></p>
                         </div>
                     </a>

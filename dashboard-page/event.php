@@ -11,6 +11,7 @@ if (!$connect) {
         header("Location: ../login-page/login.php");
     } else {
         $selectUserQuery = mysqli_query($connect, "SELECT * FROM users where username='$user'");
+        $rowUser = mysqli_fetch_assoc($selectUserQuery);
         if (mysqli_num_rows($selectUserQuery) == 0) {
             $_SESSION["error-message"] = "No user found with the supplied username and password";
             header("Location: ../login-page/login.php");
@@ -26,6 +27,7 @@ if (!$connect) {
                     header("Location: events-page.php");
                 } else {
                     $row = mysqli_fetch_assoc($selectEventQuery);
+                    $selectEventMembersQuery = mysqli_query($connect,"SELECT * FROM event_members em INNER JOIN users u ON em.user_id=u.user_id where event_id=$event");
                 }
             }
         }
@@ -64,14 +66,37 @@ if (!$connect) {
     <div class="event-page-description">
         <p class="event-page-description-paragraph"><?php echo $row["event_description"] ?></p>
         <p class="event-page-duration"><span>Date:</span><?php echo $row["event_duration"] ?></p>
+        <button id="invite-participant-btn" class="invite-participant-btn">Invite a participant</button>
         <div class="event-members">
             <div class="search-member">
                 <i class="fa fa-search"></i>
                 <input type="text" name="search-member" id="search-member" placeholder="Find A participant...">
             </div>
             <div class="members">
-                <p>The event has no participants yet</p>
-                <button id="invite-participant-btn">Invite a participant</button>
+                <?php
+                if (mysqli_num_rows($selectEventMembersQuery) == 0) {
+                    echo '
+                        <p>The event has no participants yet</p>
+                        <button id="invite-participant-btn">Invite a participant</button>
+                     ';
+                }
+                else{
+                    while($rowParticipant = mysqli_fetch_assoc($selectEventMembersQuery)){
+                        echo '
+                           <div class="participant" >
+                               <h2 id="participant-name">'.$rowParticipant["username"].'</h2>
+                               <p>'.$rowParticipant["firstname"].' '. $rowParticipant["lastname"].'</p> 
+                        ';
+                        if($row["creator"] == $rowUser["user_id"]){
+                            echo '<button id="delete-participant">Remove <i class="fas fa-trash-alt"></i></button>';
+                        }
+                        echo '
+                          </div>
+                        ';
+                    }
+                }
+                ?>
+
             </div>
         </div>
         <div class="participant-form" id="participant-form">
@@ -131,7 +156,7 @@ if (!$connect) {
                 $("#search-user").val(splitText[0]);
                 $("#search-result").html("");
                 $(".add-participant-submit").removeAttr("disabled");
-            })
+            });
         })
     </script>
 </body>

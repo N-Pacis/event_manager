@@ -9,7 +9,14 @@
       if(isset($_POST['query'])){
           $current_user = $_SESSION["username"];
           $inputText = $_POST['query'];
-          $searchQuery = mysqli_query($connect,"Select username,firstname,lastname from users where username like '%$inputText%' and username != '$current_user' LIMIT 5");
+          $currentEventMembers = [];
+          $selectEventMembersQuery = mysqli_query($connect,"select * from event_members");
+          while($rowEventMembers = mysqli_fetch_assoc($selectEventMembersQuery)){
+              array_push($currentEventMembers,$rowEventMembers["user_id"]);
+          }
+          $firstArrayStr = str_replace("["," ",json_encode($currentEventMembers));
+          $finalArrayStr = str_replace("]"," ",$firstArrayStr);
+          $searchQuery = mysqli_query($connect,"Select username,firstname,lastname from users where username like '%$inputText%' and username != '$current_user' and user_id NOT IN ($finalArrayStr) LIMIT 5");
           if(mysqli_num_rows($searchQuery) > 0){
               while($row = mysqli_fetch_assoc($searchQuery)){
                   echo '<div class="search-list-group" id="search-list-group">

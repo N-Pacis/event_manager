@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a84a5d4f-7113-4056-85c1-39eb033b5fd3" name="Default Changelist" comment="working on event.php">
-      <change beforePath="$PROJECT_DIR$/dashboard-page/add-participant-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/add-participant-form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profileUploads/defaultProfile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-page/dashboard-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/dashboard-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dashboard-page/event.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-page/events-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/events-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard-page/searchAction.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard-page/searchAction.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +42,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rOJeDZaqZxTKPsRAVhadvk4cBs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -66,7 +73,12 @@
       <workItem from="1618841852100" duration="511000" />
       <workItem from="1618842373214" duration="413000" />
       <workItem from="1618851423761" duration="1185000" />
-      <workItem from="1618895274783" duration="14723000" />
+      <workItem from="1618895274783" duration="15405000" />
+      <workItem from="1618938798281" duration="4000" />
+      <workItem from="1619070857990" duration="56000" />
+      <workItem from="1619285488658" duration="4802000" />
+      <workItem from="1619342827525" duration="5674000" />
+      <workItem from="1619362233643" duration="3897000" />
     </task>
     <task id="LOCAL-00001" summary="working on event.php">
       <created>1618852572812</created>
@@ -122,6 +134,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="working on event.php" />
     <option name="LAST_COMMIT_MESSAGE" value="working on event.php" />
   </component>
