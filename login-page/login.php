@@ -13,7 +13,7 @@ session_start();
 
 <body onload="clearSession()">
     <main>
-        <?php if ($_SESSION['error-message'] != "") : ?>
+        <?php if ($_SESSION['error-message'] != "" and isset($_SESSION['error-message'])) : ?>
             <div class="error-message-div">
                 <p><?php echo $_SESSION['error-message']; ?></p>
             </div>

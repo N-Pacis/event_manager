@@ -99,3 +99,12 @@ form>p>a{
 main{
     min-height:calc(93.5vh - 50px);
 }
+.profile-picture{
+    width: 25%;
+    height: 60px;
+    border-radius: 100%;
+}
+input[type=file]{
+    border: none;
+    width: 70%;
+}

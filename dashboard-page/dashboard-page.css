@@ -68,6 +68,8 @@
     .profile-name {
         font-weight: normal;
         font-size: 25px;
+        margin-top: 2%;
+        margin-right: 16%;
     }
     
     .no-events-div {
@@ -593,7 +595,7 @@
         font-size: 14px;
         color: #5a5a5a;
     }
-    #delete-participant{
+    .delete-participant{
         background-color: #f83c3c;
         border: none;
         border-radius: 6px;
@@ -606,11 +608,11 @@
         justify-content: space-between;
         cursor: pointer;
     }
-    #delete-participant>i{
+    .delete-participant>i{
         margin-left: 10%;
     }
 
-    #delete-participant:hover{
+    .delete-participant:hover{
         background-color: #ef4545;
     }
 
@@ -633,12 +635,104 @@
         display: flex;
         margin-top: -1%;
         width: 30%;
-        background-color: khaki;
+        padding-left: 10%;
     }
     .profilePic{
         border-radius: 100%;
         height: 45px;
         margin: 0% 2%;
-        width: 14%;
+        width: 18%;
         object-fit: cover;
+    }
+    .fa-user-cog{
+        color: rgb(255,78,107);
+        cursor: pointer;
+        font-size: 27px;
+        margin-top: 2%;
+    }
+    #check{
+        display: none;
+    }
+    #check:checked ~ .user-option{
+        opacity: 1;
+        display: block;
+    }
+    .user-option{
+        background-color: #ececec;
+        border-radius: 5px;
+        width: 10%;
+        height: auto;
+        box-sizing: border-box;
+        position: absolute;
+        border: 1px solid #ccc;
+        top: 15vh;
+        left: 89%;
+        opacity: 0;
+        display: none;
+        transition:all .8s;
+    }
+    .user-option>a{
+        width: 100%;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        margin: 8% 0%;
+        padding: 3.5% 10%;
+        color: #171717;
+        font-size: 14px;
+    }
+    .user-option>a>i{
+        margin-right: 20px;
+        color: rgb(255,78,107);
+    }
+    .user-option>a:first-child{
+        border-bottom: 1px solid #ccc;
+    }
+    .profile-picture{
+        border-radius: 100%;
+        width: 30%;
+        object-fit: cover;
+        height: 90px;
+    }
+    .full-name{
+        margin-top: 30px;
+        width: 90%;
+        font-weight: Normal;
+        font-size: 17px;
+    }
+    .username{
+        width: 40%;
+        margin-top: 3px;
+        color: #1d1d1d;
+    }
+    .username>b{
+        color: #000;
+    }
+    .user-info-primary{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5% 35%;
+    }
+    .email{
+        margin-top: 25px;
+        margin-left: -40%;
+    }
+    .update-profile-btn{
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(255,78,107);
+        border-radius: 5px;
+        padding: 0.9% 3%;
+        margin-left: 30%;
+        margin-right: 3%;
+    }
+    .update-profile-btn>i,.delete-profile-btn>i{
+        margin-right: 2%;
+    }
+    .delete-profile-btn{
+        text-decoration: none;
+        color: #fff;
+        background-color: rgb(253, 41, 76);
+        border-radius: 5px;
+        padding: 0.9% 3%;
     }

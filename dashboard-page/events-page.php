@@ -46,6 +46,12 @@ if (!$connect) {
             <div class="profile-info">
                 <img src="../profileUploads/<?php echo $row['profilePic']; ?>" alt="<?php echo $row['profilePic'];?>" class="profilePic">
                 <h2 class="profile-name"><?php echo $_SESSION["username"] ?></h2>
+                <label for="check"><i class="fas fa-user-cog"></i></label>
+                <input type="checkbox" id="check">
+                <div class="user-option">
+                    <a href="userProfile.php"><i class="fas fa-user"></i>Profile</a>
+                    <a href="logoutHandler.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                </div>
             </div>
         </div>
     </div>
@@ -104,6 +110,10 @@ if (!$connect) {
             <div class="form-group">
                 <label for="event-desc">Event Description</label>
                 <input type="text" name="event-desc" id="event-desc" required>
+            </div>
+            <div class="form-group">
+                <label for="event-image">Event Image</label>
+                <input type="file" name="event-image" id="event-image" required>
             </div>
             <div class="form-group">
                 <label for="event-duration">Event Duration</label>

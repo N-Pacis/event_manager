@@ -88,7 +88,7 @@ if (!$connect) {
                                <p>'.$rowParticipant["firstname"].' '. $rowParticipant["lastname"].'</p> 
                         ';
                         if($row["creator"] == $rowUser["user_id"]){
-                            echo '<button id="delete-participant">Remove <i class="fas fa-trash-alt"></i></button>';
+                            echo '<button id='.$rowParticipant["user_id"].' class="delete-participant">Remove <i class="fas fa-trash-alt"></i></button>';
                         }
                         echo '
                           </div>

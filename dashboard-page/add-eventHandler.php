@@ -24,9 +24,13 @@
                     header("Location: events-page.php");
                 }
                 else{
+                        $temporary_file_data = $_FILES['event-image']['tmp_name'];
+                        $unique_id = uniqid();
+                        $final_filename = $unique_id . $_FILES['event-image']['name'];
+                        move_uploaded_file($temporary_file_data, 'events-images/' . $final_filename);
                         $row=mysqli_fetch_assoc($checkCreatorQuery);
                         $user_id = $row["user_id"];
-                        $insertQuery = mysqli_query($connect,"INSERT INTO events(event_name,event_description,event_duration,creator) values('$event_name','$event_desc','$event_dur','$user_id')");
+                        $insertQuery = mysqli_query($connect,"INSERT INTO events(event_name,event_description,event_image,event_duration,creator) values('$event_name','$event_desc','$final_filename','$event_dur','$user_id')");
                         if(!$insertQuery){
                             $_SESSION["error-message"] = "Failed to add a new event due to ".mysqli_error($connect);
                             header("Location: events-page.php");
